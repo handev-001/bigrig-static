@@ -268,7 +268,7 @@ cfg: {
                                 <a href="../reservation/create.html" class="cl-effect-1"><i class="fa"></i>Reservations</a>
                             </li>
                             <li>
-                                <a href="https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143" class="cl-effect-1"><i class="fa"></i>Availability</a>
+                                <a href="/availability.html" class="cl-effect-1"><i class="fa"></i>Availability</a>
                             </li>
 
 
@@ -392,11 +392,6 @@ cfg: {
 </style>
 
 
-<h2 style="color: red;">Win a Free 7-Night RV Campsite Rental for the 2023 Sturgis Motorcycle Rally</h2>
-<p>
-    We are giving away a free Campsite Rental for the 2023 Sturgis Motorcycle Rally. <a href="winfreervcampsite.html"> Click Here for Details.</a>
-</p>
-
 <h2>Now Accepting 2023 Reservations</h2>
 <h4>We have several lots available for the 2023 Sturgis Motorcycle Rally </h4>
 <h4>All sites have full services (water, sewer, 30/50 amp electric) including WIFI </h4>
@@ -440,144 +435,6 @@ cfg: {
 <br />
 
 
-<form action="https://www.bigrigrvpark.com/Reservation/Search" method="post"><h4>We are open from Friday, July 28th, 2023 thru  Monday, August 14th, 2023</h4>
-<br />
-<div class="form-horizontal">
-    <input data-val="true" data-val-required="The Guest Id field is required." id="GuestID" name="GuestID" type="hidden" value="0" />
-    <input data-val="true" data-val-required="The SecurityKey field is required." id="SecurityKey" name="SecurityKey" type="hidden" value="199bd6fc-7db2-4551-89f9-05e1c778783d" />
-
-<input data-val="true" data-val-required="The Year field is required." id="Year" name="Year" type="hidden" value="2023" />
-    <div id="app">
-        <div class="form-group">
-            <label class="control-label col-md-2" for="StartDate">Check In Date</label>
-            <div class="col-md-10">
-                <vuejs-datepicker name="StartDate"
-                                  id="StartDate"
-                                  v-model="startDate"
-                                  format="MM/dd/yyyy"
-                                  calendar-button="true"
-                                  calendar-button-icon="fa fa-calendar"
-                                  typeable=true
-                                  required="true"
-                                  v-on:selected="onStartDateSelected"></vuejs-datepicker>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label class="control-label col-md-2" for="EndDate">Check Out Date</label>
-            <div class="col-md-10">
-                <vuejs-datepicker name="EndDate"
-                                  id="EndDate"
-                                  v-model="endDate"
-                                  format="MM/dd/yyyy"
-                                  calendar-button="true"
-                                  calendar-button-icon="fa fa-calendar"
-                                  typeable=true
-                                  required="true"
-                                  v-on:selected="onEndDateSelected"></vuejs-datepicker>
-            </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="control-label col-md-2" for="LotClass">Lot Class</label>
-        <div class="col-md-10">
-            <select class="form-control col-md-2" id="LotClass" name="LotClass"><option value="">Show All Lot Classes</option>
-<option value="STD_35_FOOT">35 Foot Standard - North</option>
-<option value="45_FT_SUNSETVIEW">45 Foot Sunset View - North</option>
-<option value="STD_50_FOOT">50 Foot Standard - North</option>
-<option value="52_FT_BACKIN">52 Foot Back-In - North</option>
-<option value="END_LOT_55">55 Foot Std End Lot - South</option>
-<option value="FRONT_ROW_55">55 Foot Front Row- North</option>
-<option value="60_FT_SUNSETVIEW">60 Foot Sunset View - North</option>
-<option value="65_FT_BACKIN">65 Foot Back-In - North</option>
-<option value="RIDGE_VIEW_65">65 Foot Ridge View - South</option>
-<option value="STD_70_FOOT">70 Foot Standard - North</option>
-<option value="FRONT_ROW_70">70 Foot Front Row View - North</option>
-<option value="END_LOT_70">70 Foot End Lot - South</option>
-<option value="END_LOT_75">75 Foot End Lot - South</option>
-<option value="RIDGE_VIEW_75">75 Foot Ridge View - South</option>
-<option selected="selected" value="STANDARD_75">75 Foot Standard - South</option>
-<option value="STURGIS_VIEW_75">75 Foot Sturgis View - South</option>
-<option value="SUNSET_VIEW_75">75 Foot Sunset View - South</option>
-<option value="STURGIS_VIEW_80">80 Foot Sturgis View - South</option>
-<option value="SUNSET_80">80 Foot Sunset - South</option>
-<option value="STD_90_FOOT">90 Foot Standard - North</option>
-<option value="FRONT_ROW_90">90 Foot Front Row View - North</option>
-</select>
-            <span class="field-validation-valid" data-valmsg-for="LotClass" data-valmsg-replace="true"></span>
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label class="control-label col-md-2" for="NumGuests">Number Of Guests</label>
-        <div class="col-md-10">
-            <select class="form-control col-md-2" data-val="true" data-val-required="The Number Of Guests field is required." id="NumGuests" name="NumGuests"><option selected="selected">2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<option>6</option>
-<option>7</option>
-<option>8</option>
-<option>9</option>
-<option>10</option>
-</select>
-            <span class="field-validation-valid" data-valmsg-for="NumGuests" data-valmsg-replace="true"></span>
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label class="control-label col-md-2" for="CheckAvailability">Check Availability</label>
-        <div class="col-md-10">
-            <input checked="checked" data-val="true" data-val-required="The Check Availability field is required." id="CheckAvailability" name="CheckAvailability" type="checkbox" value="true" />
-            <span class="field-validation-valid" data-valmsg-for="LotClass" data-valmsg-replace="true"></span>
-        </div>
-    </div>
-
-
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            
-            <input type="submit" value="View Rates" class="btn btn-primary" />
-        </div>
-    </div>
-</div>
-<input name="__RequestVerificationToken" type="hidden" value="CfDJ8JBd1i1u9rtHjWRlTvIOwTpabnxLZeDitySdr6Jw7EZLsW4WKlWCxXm4z-MIv6q_xpR7dKsjMiiV8RCRwjQNBMk3xGM2qPz58qfxbnOalXJBqslWYTTu7J129piwD13IQhjQPaNrMMd8s_HzrKJBSWw" /><input name="CheckAvailability" type="hidden" value="false" /></form>
-<script src="/unpkg.com/vue%402.6.14/dist/vue.js"></script>
-<script src="https://unpkg.com/vuejs-datepicker"></script>
-<script>
-    var model = {
-        startDate: '8/3/2023 12:00:00 AM',
-        endDate: '8/8/2023 12:00:00 AM',
-        year: 2023
-    };
-
-    var startDate = window.localStorage.getItem("search.startDate." + model.year);
-    if (startDate) {
-        model.startDate = new Date(startDate);
-    }
-
-    var endDate = window.localStorage.getItem("search.endDate." + model.year);
-    if (endDate) {
-        model.endDate = new Date(endDate);
-    }
-
-    const vueApp = new Vue({
-        el: '#app',
-        data: model,
-        components: {
-            vuejsDatepicker
-        },
-        methods: {
-            onStartDateSelected: function (date) {
-                window.localStorage.setItem("search.startDate." + model.year, date);
-            },
-            onEndDateSelected: function (date) {
-                window.localStorage.setItem("search.endDate." + model.year, date);
-            },
-
-        }
-    });
-</script>
 
 <br />
 
