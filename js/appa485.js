@@ -1,0 +1,1 @@
+Date.prototype.toMMddyyyy=function(){var n=this.getMonth()+1,t=this.getDate();return[(n>9?"":"0")+n,(t>9?"":"0")+t,this.getFullYear()].join("/")}
