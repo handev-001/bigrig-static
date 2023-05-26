@@ -1,9 +1,10 @@
 # redirects
 # source                                        target
 # old                                           new
-/availability.html                              https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
-/reservation/create.html                        https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
-/home/winfreervcampsite                         https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
-/home/gameentry*                                https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
-/home/termsandconditions-2.html                 https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
-/404.html                                       https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143
+/availability.html                              https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/reservation/create.html                        https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/home/winfreervcampsite                         https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/home/gameentry*                                https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/home/termsandconditions-2.html                 https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/rates.html                                     https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
+/404.html                                       https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
