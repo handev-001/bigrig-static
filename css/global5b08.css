@@ -7199,11 +7199,13 @@ button.close {
 
 @media only screen and (min-width : 1024px) {
   .section1 h1:before {
-    content: url('/site/graphics/h1-bg.png');
+    content: url('/site/graphics/h1-bg.png')"\A";
+    white-space: pre;
   }
 
   .section1 h1:after {
-    content: url('/site/graphics/h1-bg.png');
+    content: "\A"url('/site/graphics/h1-bg.png');
+    white-space: pre;
   }
 }
 
