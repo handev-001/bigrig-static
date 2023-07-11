@@ -7841,8 +7841,9 @@ body {
 
 /* LINKS */
 a {
-  color: #990000;
+  color: #cc0000;
   text-decoration: none;
+  text-shadow: white 0px 0px 2px 2px;
 }
 
 a:hover,
