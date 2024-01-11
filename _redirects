@@ -11,19 +11,19 @@
 /404.html                                       https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
 
 # big rig                                       # black hills vista
-/index.html                                     https://blackhillsvista.com 301!
-/home/about.html                                https://blackhillsvista.com/about/ 301!
-/home/campgroundfaqs.html                       https://blackhillsvista.com/campground-faqs/ 301!
-/home/campgroundmaps.html                       https://blackhillsvista.com/campground-maps/ 301!
-/home/consider.html                             https://blackhillsvista.com/things-to-consider/ 301!
-/home/contact.html                              https://blackhillsvista.com/contact/ 301!
-/home/localattractions.html                     https://blackhillsvista.com/local-attractions/ 301!
-/home/motorcycletouring.html                    https://blackhillsvista.com/motorcycle-touring/ 301!
-/home/petpolicy.html                            https://blackhillsvista.com/policy/ 301!
-/home/picturegallery.html                       https://blackhillsvista.com/gallery/ 301!
-/home/privacy.html                              https://blackhillsvista.com/privacy-policy/ 301!
-/home/privacypolicy.html                        https://blackhillsvista.com/privacy-policy/ 301!
-/home/services.html                             https://blackhillsvista.com/amenities/ 301!
-/home/sturgismotorcyclerally.html               https://blackhillsvista.com/sturgis-motorcycle-rally/ 301!
-/home/sturgismotorcyclerallyfaqs.html           https://blackhillsvista.com/sturgis-motorcycle-rally/ 301!
-/home/termsandconditions.html                   https://blackhillsvista.com/terms-and-conditions/ 301!
+/index*                                         https://blackhillsvista.com 301!
+/home/about*                                    https://blackhillsvista.com/about/ 301!
+/home/campgroundfaqs*                           https://blackhillsvista.com/campground-faqs/ 301!
+/home/campgroundmaps*                           https://blackhillsvista.com/campground-maps/ 301!
+/home/consider*                                 https://blackhillsvista.com/things-to-consider/ 301!
+/home/contact*                                  https://blackhillsvista.com/contact/ 301!
+/home/localattractions*                         https://blackhillsvista.com/local-attractions/ 301!
+/home/motorcycletouring*                        https://blackhillsvista.com/motorcycle-touring/ 301!
+/home/petpolicy*                                https://blackhillsvista.com/policy/ 301!
+/home/picturegallery*                           https://blackhillsvista.com/gallery/ 301!
+/home/privacy*                                  https://blackhillsvista.com/privacy-policy/ 301!
+/home/privacypolicy*                            https://blackhillsvista.com/privacy-policy/ 301!
+/home/services*                                 https://blackhillsvista.com/amenities/ 301!
+/home/sturgismotorcyclerally*                   https://blackhillsvista.com/sturgis-motorcycle-rally/ 301!
+/home/sturgismotorcyclerallyfaqs*               https://blackhillsvista.com/sturgis-motorcycle-rally/ 301!
+/home/termsandconditions*                       https://blackhillsvista.com/terms-and-conditions/ 301!
