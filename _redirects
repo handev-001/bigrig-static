@@ -11,7 +11,7 @@
 /404.html                                       https://resnexus.com/resnexus/reservations/book/3ED442B9-F766-43A0-98C0-DDF7CC173143 301!
 
 # big rig                                       # black hills vista
-/                                               https://blackhillsvista.com 301!
+# /                                               https://blackhillsvista.com 301!
 /index*                                         https://blackhillsvista.com 301!
 /home/about*                                    https://blackhillsvista.com/about/ 301!
 /home/campgroundfaqs*                           https://blackhillsvista.com/campground-faqs/ 301!
